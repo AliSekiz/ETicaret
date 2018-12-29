@@ -1,0 +1,33 @@
+.kenarlik{
+  border: 1px solid black;
+}
+.container{
+  height:auto;
+  width:100%;
+  margin:auto;
+}
+p{
+  margin: 0 0 0 0;
+}
+.header{
+  display: grid;
+  grid-template-columns:33% 33% 33%;
+  grid-template-rows: auto auto auto;
+  padding: 10px;
+}
+.header > div{
+  text-align: center;
+  display: flex;
+}
+.sol-ust{
+  justify-content: flex-start;
+  color: gray;
+}
+#sol-logo{
+  height: 100%;
+  width:4%;
+  padding: 0 5px;
+}
+#sol-yazı{
+  
+}

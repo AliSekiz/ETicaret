@@ -28,6 +28,51 @@ p{
   width:4%;
   padding: 0 5px;
 }
-#sol-yazı{
-  
+.sag-ust{
+  display: flex;
+  color: gray;
+  justify-content: flex-end;
+}
+.sag-ust > p{
+  padding: 0 5px;
+}
+.sol-alt{
+  width: 100%;
+  display: flex;
+}
+.searchText{
+  width: 50%;
+  padding: 5px;
+}
+.searchButton{
+  width: 13%;
+  height: 47px;
+  text-align: center;
+  color:#fff;
+  background-color: #ffd15c;
+}
+.sag-alt{
+  display: flex;
+  width: 100%;
+  justify-content:flex-end;
+}
+.sepet-ekle{
+  width: 50%;
+  height: 50%;
+  margin:6px 0;
+  display: flex;
+}
+.sepet-ekle > img{
+  height: 100%;
+  width: 10%;
+  margin:0 5px;
+}
+.sepet-durum{
+  height: 100%;
+  width: 85%;
+  background: #ffd15c;
+}
+.sepet-durum > p{
+  color:white;
+  margin: auto;
 }

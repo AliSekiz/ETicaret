@@ -235,3 +235,20 @@ grid-column: 1 / span 2;
 .item3{
   grid-column: 3/ span 4;
 }
+.urun-detay > p{
+  font-family: sans-serif;
+  font-weight: 800;
+  text-align: center
+}
+.urun-adi{
+  color:rgb(150,150,150);
+  font-size:13px;
+}
+.urun-fiyat{
+  font-size: 11px;
+  color: inherit;
+}
+.urun-indirim{
+  color:rgb(249,78,102);
+  font-size: 12px;
+}

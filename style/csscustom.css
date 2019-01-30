@@ -110,26 +110,27 @@ p{
   grid-template-columns:75% 25%;
   grid-template-rows: 100%;
 }
-.slide-show{
-  overflow: hidden;
-  width:99%;
-  background-color: #f5f5f5;
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
 }
-.slide-wrapper{
-  width: 2880px;
-  -webkit-animation: slide 15s ease infinite;
-}
-.slide{
-  float: left;
-  height: 402px;
-  width: 960px;
-}
-@-webkit-keyframes slide{
-  20% {margin-left: 0px;}
-  40% {margin-left: -960px;}
-  60% {margin-left: -960px;}
-  80% {margin-left: -1920px;}
-  90% {margin-left: -1920px;}
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 15s slidy infinite; 
 }
 .fırsat{
   display: grid;

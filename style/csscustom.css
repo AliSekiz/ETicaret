@@ -104,7 +104,6 @@ p{
 }
 .section{
   margin: 15px 10px;
-  height:350px;
   width: 97%;
   display: grid;
   grid-template-columns:75% 25%;
@@ -190,28 +189,23 @@ div#slider figure {
   font-weight: 1000;
   margin: auto;
 }
-.section-alt{
-  width: 96%;
-  padding: 10px;
-  display: grid;
-
-}
-.section-alt > p{
-  width: 75.7%;
-  font-size: 20px;
-  color: #949494;
+.sizinicin{
+  margin: 10px 0 0 10px;
+  font-size: 1.3em;
+  color: rgb(148, 148, 148);
   font-family: sans-serif;
   font-weight: bold;
-  margin: 0;
   border-bottom: 5px solid #ffd15c;
+  width: 72.5%;
+  height: 10%;
 }
 .urunler-liste{
-  margin: 10px;
-  height: 300px;
-  width: 75%;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 100% 100% 100% 100%;
+  grid-template-rows: 100%;
+}
+.section >img{
+  margin: 0 0 0 5px;
 }
 .urunler-liste > .kenarlik{
   border: 1px solid #ffd15c

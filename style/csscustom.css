@@ -190,8 +190,9 @@ div#slider figure {
   text-decoration: none;
   font-weight: 1000;
   margin: auto;
+  font-size: 70%;
 }
-.sizinicin{
+.maintitle{
   margin: 10px 0 0 10px;
   font-size: 1.3em;
   color: rgb(148, 148, 148);
@@ -255,4 +256,14 @@ div#slider figure {
 .ozellik-row{
   grid-column: 1/3;
   grid-row: 3/4;
+}
+.markalar{
+  grid-template-columns: 12% 12% 12% 12% 12% 12% 12% 12%;
+  grid-template-rows: 50px;
+  display: grid;
+}
+.markalar >img{
+  height: 100%;
+  width: 80%;
+  margin: 5px auto;
 }

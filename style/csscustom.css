@@ -292,3 +292,13 @@ div#slider figure {
   margin: auto;
   font-size: 70%;
 }
+.kartlar{
+  grid-template-columns: 15% 16% 10% 8% 7% 11% 11% 8% 12%;
+  grid-template-rows: 40px;
+  display: grid;
+}
+.kartlar > img{
+  height: 100%;
+  width: 80%;
+  margin:auto;
+}

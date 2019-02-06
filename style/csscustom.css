@@ -302,3 +302,31 @@ div#slider figure {
   width: 80%;
   margin:auto;
 }
+.cizgi{
+  width: 100%;
+  border-bottom: 2px solid rgb(249,78,102);
+  margin: 25px 0 0 0;
+}
+.footer{
+  display: grid;
+  margin: auto;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100%;
+}
+.footer >div{
+  margin: 10px auto;
+  display: grid;
+  grid-gap: 10px;
+  font-family: sans-serif;
+  color: #605153;
+}
+.footertitle{
+  font-size: 100%;
+  font-weight: bold;
+}
+.footertext{
+  font-size:90%;
+}
+.e-bulten{
+  
+}

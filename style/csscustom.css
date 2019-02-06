@@ -335,7 +335,7 @@ div#slider figure {
   right: 5px;
   width: 20%;
   border: 1px solid black;
-  font-size: 20px;
+  font-size: 100%;
   color: white;
   padding: 10px;
   font-family: sans-serif;

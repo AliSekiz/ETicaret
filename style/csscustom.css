@@ -103,6 +103,7 @@ p{
   text-decoration: none;
 }
 .section{
+  height: 350px;
   margin: 15px 10px;
   width: 97%;
   display: grid;

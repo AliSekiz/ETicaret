@@ -328,5 +328,18 @@ div#slider figure {
   font-size:90%;
 }
 .e-bulten{
-  
+  display: grid;
+  background: #414141;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  width: 20%;
+  border: 1px solid black;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  font-family: sans-serif;
+  grid-template-columns: 90% 10%;
+  height: 25px;
+
 }

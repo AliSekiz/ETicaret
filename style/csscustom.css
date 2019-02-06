@@ -180,6 +180,7 @@ div#slider figure {
   font-size: 0.8em;
 }
 .sepete-ekle{
+  grid-row: 5/6;
   height: 70%;
   width: 90%;
   background-color: #ffd15c;
@@ -193,7 +194,7 @@ div#slider figure {
   font-size: 70%;
 }
 .maintitle{
-  margin: 10px 0 0 10px;
+  margin: 50px 0 0 10px;
   font-size: 1.3em;
   color: rgb(148, 148, 148);
   font-family: sans-serif;
@@ -266,4 +267,27 @@ div#slider figure {
   height: 100%;
   width: 80%;
   margin: 5px auto;
+}
+.coksatanlar{
+  height: 350px;
+  margin: 50px 10px;
+  width: 97%;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 100%;
+}
+.incele-button{
+  grid-column: 1/2;
+  grid-row: 5/6;
+  height: 70%;
+  width: 90%;
+  background-color: rgb(249,78,102);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 1000;
+  margin: auto;
+  font-size: 70%;
 }

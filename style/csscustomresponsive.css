@@ -46,5 +46,36 @@
   grid-template-rows: 50px 50px;
   grid-template-columns:25% 25% 25% 25%
 }
+.section{
+  grid-template-columns: 100%;
+  grid-template-rows: 50% 50%;
+}
 
+}
+div#slider figure img {
+    height: 400px;
+    width: 20%;
+    float: left;
+}
+.fırsat{
+  margin-top:10px;
+  width: 100%;
+  height: 300px;
+  grid-template-rows: 7% 7% 50% 10% 12% 12%;
+  grid-template-columns: 100%;
+}
+.fırsat > img{
+  width: 95%;
+  height: 100%;
+}
+.fırsat >.sepete-ekle{
+  width: 90%;
+}
+.maintitle{
+  margin: 140px 0 0 10px;
+  width: 98%;
+}
+.urunler-liste{
+  grid-template-columns: 50% 50%;
+  grid-template-rows:50% 50%;
 }
